@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30869" started-at="2018-03-10T09:11:18Z" finished-at="2018-03-10T09:11:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30869" started-at="2018-03-10T09:11:18Z" finished-at="2018-03-10T09:11:49Z">
+      <class name="tests.SmokeTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SmokeTest@7a92922]" name="setup" is-config="true" duration-ms="9270" started-at="2018-03-10T14:41:18Z" finished-at="2018-03-10T14:41:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:tests.SmokeTest@7a92922]" name="searchTest" duration-ms="4764" started-at="2018-03-10T14:41:27Z" data-provider="getData" finished-at="2018-03-10T14:41:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Neha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:tests.SmokeTest@7a92922]" name="searchTest" duration-ms="5283" started-at="2018-03-10T14:41:32Z" data-provider="getData" finished-at="2018-03-10T14:41:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Atif]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:tests.SmokeTest@7a92922]" name="searchTest" duration-ms="5527" started-at="2018-03-10T14:41:37Z" data-provider="getData" finished-at="2018-03-10T14:41:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amitabh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:tests.SmokeTest@7a92922]" name="searchTest" duration-ms="4926" started-at="2018-03-10T14:41:43Z" data-provider="getData" finished-at="2018-03-10T14:41:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arijit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:tests.SmokeTest@7a92922]" name="quit" is-config="true" duration-ms="1034" started-at="2018-03-10T14:41:48Z" finished-at="2018-03-10T14:41:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.SmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
